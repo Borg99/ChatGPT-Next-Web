@@ -169,7 +169,8 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>叶冠华 ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            体验人工智能AI。
+            小华带您探索AI自然语言的无限可能！
+            请遵守中华人民共和国《网络安全法》以及相关法律。
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
@@ -205,9 +206,9 @@ function _Home() {
               />
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank">
+              <!--a href={REPO_URL} target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
-              </a>
+              </a-->
             </div>
           </div>
           <div>
